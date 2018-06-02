@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     line_array = []
     count = 1
-    katz_deli.each do |person|
+    katz_deli.collect do |person|
       x = "#{count}. #{person}"
       line_array << x
       count += 1
