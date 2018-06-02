@@ -11,11 +11,13 @@ def line(katz_deli)
       line_array << x
       count += 1
     end
-    puts line_array.join(" ")
+    puts "The line is currently #{line_array.join(" ")}"
+  end
+end
       
     
-    puts "The line"
-    katz_deli
+ #   puts "The line"
+  #  katz_deli
   #  line_array = ["The line is currently:"]
   #  katz_deli.each do |person|
   #    count = 1
@@ -24,8 +26,8 @@ def line(katz_deli)
   #    count += 1
   #  end
   #  
-  end
-end
+ # end
+#end
 
 def take_a_number(katz_deli, name)
   count = 0
