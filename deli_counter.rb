@@ -4,14 +4,15 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    line_array = ["The line is currently:"]
-    katz_deli.each do |person|
-      count = 1
-      x = "#{count}. #{person}"
-      line_array << x
-      count += 1
-    end
-    
+    katz_deli
+  #  line_array = ["The line is currently:"]
+  #  katz_deli.each do |person|
+  #    count = 1
+  #    x = "#{count}. #{person}"
+  #    line_array << x
+  #    count += 1
+  #  end
+  #  
   end
 end
 
