@@ -11,7 +11,7 @@ def line(katz_deli)
       line_array << x
       count += 1
     end
-    puts "The line is currently #{line_array.join(" ")}"
+    puts "The line is currently: #{line_array.join(" ")}"
   end
 end
       
