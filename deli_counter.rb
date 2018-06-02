@@ -11,7 +11,7 @@ def line(katz_deli)
       line_array << x
       count += 1
     end
-    line_output = line_array.join
+    puts line_array.join(" ")
       
     
     puts "The line"
