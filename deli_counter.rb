@@ -14,23 +14,8 @@ def line(katz_deli)
     puts "The line is currently: #{line_array.join(" ")}"
   end
 end
-      
-    
- #   puts "The line"
-  #  katz_deli
-  #  line_array = ["The line is currently:"]
-  #  katz_deli.each do |person|
-  #    count = 1
-  #    x = "#{count}. #{person}"
-  #    line_array << x
-  #    count += 1
-  #  end
-  #  
- # end
-#end
 
 def take_a_number(katz_deli, name)
-  count = 0
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.size}"
 end
